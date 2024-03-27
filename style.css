@@ -8,7 +8,7 @@
 
 .event-title {
     color: #333333;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     font-style: normal;
     font-family: 'Courier New', monospace;
     margin-bottom: 0rem;
@@ -32,6 +32,10 @@
     margin-top: 2rem;
 }
 
+.sponsor-logo {
+    max-width: 100px;
+}
+
 .header-image  {
     max-width: 60%;
 }
@@ -43,4 +47,26 @@ a {
 a:hover {
     color: #5a9dd8;
     text-decoration: underline;
+}
+
+.card {
+    margin-bottom: 1rem
+}
+
+.carousel-inner {
+    height: 0;
+    padding-bottom: 60%; /* this sets carousel aspect ratio */
+}
+
+.carousel-item {
+    position: absolute !important; /* Bootstrap is insistent */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.carousel-item img {
+    height: 100%;
+    object-fit: cover; /* or 'contain' if you want stretch instead of crop */
 }
