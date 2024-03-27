@@ -1,0 +1,46 @@
+.bg-item {
+    background-image: linear-gradient(160deg, rgba(150, 193, 230, 1), rgba(150, 193, 230, 0.3), rgba(255, 255, 255, 1));
+}
+
+.start {
+    text-align: right;
+}
+
+.event-title {
+    color: #333333;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-family: 'Courier New', monospace;
+    margin-bottom: 0rem;
+}
+
+.section-title {
+    color: #333333;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-family: 'Brush Script MT', 'Brush Script Std', cursive;
+    margin-bottom: 0rem;
+    margin-top: 2rem;
+}
+
+.sponsor-title {
+    color: #333333;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-family: 'Brush Script MT', 'Brush Script Std', cursive;
+    margin-bottom: 0rem;
+    margin-top: 2rem;
+}
+
+.header-image  {
+    max-width: 60%;
+}
+
+a {
+    color: #6ea9dd;
+    text-decoration: none;
+}
+a:hover {
+    color: #5a9dd8;
+    text-decoration: underline;
+}
